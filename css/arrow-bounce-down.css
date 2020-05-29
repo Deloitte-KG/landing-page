@@ -1,0 +1,25 @@
+.arrow-bounce-down {
+  display:block;
+  width:3vw;
+  margin: 16px 0;
+}
+
+.bounce {
+  animation: bounce 3s;
+}
+
+@keyframes bounce {
+0%,
+25%,
+50%,
+75%,
+100% {
+transform: translateY(0);
+}
+40% {
+transform: translateY(-20px);
+}
+60% {
+transform: translateY(-12px);
+}
+}
